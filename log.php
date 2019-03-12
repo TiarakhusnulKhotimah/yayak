@@ -14,7 +14,7 @@ require 'koneksi.php';
 <body style="background:url(gmb3.png)">
 <center>
 <br><br>
-    <h2>RESEP MASAKAN SUMATERA SELATAN</h2>
+    <h2>RESEP MASAKAN SUMATERA SELATAN LEZAT</h2>
   <br><br>
     <table border="3" cellpadding="10" cellspacing="10" width="90%">
   <tr>
