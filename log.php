@@ -35,7 +35,7 @@ require 'koneksi.php';
     <td><?= $x["bahan"];  ?></td>
     <td><?= $x["langkah"];  ?></td>
     <td><?= $x["waktu"];  ?></td>
-    <td><a href="hapus.php?id=<?php echo $x['id']?>" onclick =" return confirm ('yakin untuk dihapus?');"><img src="image/btn_delete.png"></a>&nbsp;&nbsp;<a href="ubah.php?id=<?php echo $x['id']?>"><img src="image/btn_edit.png"></a></td>
+    <td><a href="register.php?id=<?php echo $x['id']?>" onclick =" return confirm ('yakin untuk dihapus?');"><img src="image/btn_delete.png"></a>&nbsp;&nbsp;<a href="register.php?id=<?php echo $x['id']?>"><img src="image/btn_edit.png"></a></td>
   </tr>
 <?php $i++; ?>
 <?php endforeach; ?>

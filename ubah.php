@@ -23,7 +23,7 @@
 			echo "data gagal diubah";
 			echo "<br>";
 			echo "klik ";
-			echo "<a href='creat.php'>disini</a>";
+			echo "<a href='admin.php'>disini</a>";
 			echo " bray";
 		}
 	}
@@ -42,16 +42,16 @@
  		<input type="hidden" name="id" value="<?= $ubah["id"]?>">
  		<br>
  		Nama Masakan	: 
-		<input type="text" name="namamasakan" placeholder="Judul" value="<?= $ubah["namamasakan"]?>">
+		<input type="text" name="namamasakan" placeholder="Judul">
 		<br>
 		<br>
 		Bahan-bahan	:
-		<input name="bahan"  value="<?= $ubah["bahan"]?>">
+		<textarea name="bahan" placeholder="Text Artikel"> </textarea>
 		<br><br>
 		Cara Pembuatan	:
-		<input name="langkah"  value="<?= $ubah["langkah"]?>">
+		<textarea name="langkah" placeholder="Text Artikel"> </textarea>
 		<br><br>
-		<input type="submit" name="submit"">
+		<input type="submit" name="submit">
  	</form>
 </body>
 </html>

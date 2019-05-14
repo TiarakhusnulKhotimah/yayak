@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Mar 2019 pada 02.29
+-- Waktu pembuatan: 13 Bulan Mei 2019 pada 03.24
 -- Versi server: 10.1.37-MariaDB
 -- Versi PHP: 7.3.1
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `yaykkk`
+-- Database: `contoh`
 --
 
 -- --------------------------------------------------------
@@ -88,7 +88,8 @@ INSERT INTO `user` (`id`, `username`, `password`, `usia`, `nim`, `jurusan`, `bio
 (60, 'tiara', 'wewe', 14, 2147483647, 'Sistem Komputer', 'nbsdknhdfjiehfui', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'admin'),
 (61, 'tiara', 'wewe', 14, 2147483647, 'Sistem Komputer', 'nbsdknhdfjiehfui', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'admin'),
 (62, 'tiara', 'wewe', 14, 2147483647, 'Sistem Komputer', 'nbsdknhdfjiehfui', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'admin'),
-(63, 'Tiara Khusnul Khotimah', 'yayak12', 19, 2147483647, 'Sistem Informasi', 'haiiii', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'manager');
+(63, 'Tiara Khusnul Khotimah', 'yayak12', 19, 2147483647, 'Sistem Informasi', 'haiiii', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'manager'),
+(64, 'M Fikri', '22222', 19, 2147483647, 'Sistem Komputer', 'aaaaaaaaa', 'Perempuan', 'www.google', 'shahnazkhairunnisa2@gmail.com', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -114,13 +115,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

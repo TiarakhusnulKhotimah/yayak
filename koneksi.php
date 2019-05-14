@@ -1,6 +1,6 @@
 <?php 
 	
-	$conn = mysqli_connect("localhost","root","","ndy");
+	$conn = mysqli_connect("localhost","root","","contoh");
 
 	function query ($query){
 		global $conn;
